@@ -18,11 +18,11 @@ To write a program to perform linear search and binary search using python progr
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
 i)	#Use a linear search method to match the item in a list.
-```
-Program for linear search method to match the item in a list
-Developed by: your name: Mohammed Faizal.J
-RegisterNumber:22003412
 
+```python
+#Program for linear search method to match the item in a list
+#Developed by: your name: Mohammed Faizal.J
+#RegisterNumber:22003412
 def linearsearch(array,n,k):
     for i in range(0,n):
         if (array[i] == k):
@@ -39,11 +39,11 @@ if (result == -1):
 else:
     print(array)
     print("Element found at index: ",result)
-    
 ```
 
 ii)	# Find the element in a list using Binary Search(Iterative Method).
-```
+
+```python
 def binarySearchIter(array,k,low,high):
     while low<=high:
         mid=low+(high-low)//2
@@ -64,16 +64,14 @@ if result==-1:
 else:
     print(array)
     print("Element found at index: ",result)
-
 ```
+
 iii)	# Find the element in a list using Binary Search (recursive Method).
-```
 
-''' 
-Program to find the element in a list using Binary Search (recursive Method).
-Developed by: your name: Mohammed Faizal.J
-RegisterNumber:22003412
-'''
+``` python
+#Program to find the element in a list using Binary Search (recursive Method).
+#Developed by: your name: Mohammed Faizal.J
+#RegisterNumber:22003412
 def BinarySearch(arr,k,low,high):
     if low <= high:
         mid = low + (high - low)//2
@@ -95,11 +93,8 @@ if result==-1:
 else:
     print(array)
     print("Element found at index: ",result)
-        
-
-
-
 ```
+
 ## Sample Input and Output
 
 ![1](https://user-images.githubusercontent.com/120553195/214832264-841249e1-8467-40a3-a784-dd14acc577bc.png)
